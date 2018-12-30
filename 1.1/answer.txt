@@ -1,0 +1,6 @@
+root@fuxi16:/home/markokos# docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+765502636fca        nginx               "nginx -g 'daemon of…"   37 seconds ago      Exited (0) 4 seconds ago                       modest_shirley
+6d0da56a7009        nginx               "nginx -g 'daemon of…"   39 seconds ago      Exited (0) 4 seconds ago                       vigilant_cori
+b0c629f58dfd        nginx               "nginx -g 'daemon of…"   41 seconds ago      Up 40 seconds              80/tcp              determined_mcnulty
+

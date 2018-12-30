@@ -1,0 +1,6 @@
+markokos@fuxi16:~/devops_with_docker/1.1$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+markokos@fuxi16:~/devops_with_docker/1.1$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+markokos@fuxi16:~/devops_with_docker/1.1$ 
+

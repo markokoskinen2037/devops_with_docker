@@ -1,0 +1,5 @@
+Valitsemassani projektissa on erilliset backend ja frontend.
+Tästä syystä tein kaksi erillistä imagea, jotka toimivat yhdessä mukavasti docker-composen avulla.
+
+1. https://hub.docker.com/r/markokoskinen2019/opintojenaikatauluttaja_frontend
+2. https://hub.docker.com/r/markokoskinen2019/opintojenaikatauluttaja_backend

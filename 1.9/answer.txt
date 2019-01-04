@@ -1,0 +1,7 @@
+Image in DockerHub: https://hub.docker.com/r/markokoskinen2019/c_developer_setup
+
+This image contains all you can hope for developing high quality C applications.
+
+Features: Vim, GCC-compiler, build-essentials.
+
+To use this image, all you need is Docker. Then you can run "docker run -it markokoskinen2019/c_developer_setup" in terminal and start developing!

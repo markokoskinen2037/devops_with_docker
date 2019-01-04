@@ -1,0 +1,1 @@
+My docker-compose.yml configuration assumes that frontend, backend and training images have been build locally with their respective names (ml_front,ml_back,ml_training).

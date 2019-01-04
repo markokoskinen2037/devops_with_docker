@@ -1,0 +1,26 @@
+version: '3.5' 
+services: 
+
+  front:
+    image: ml_front
+    ports:
+      - 3000:3000
+
+  back:
+    image: ml_back
+    ports:
+      - 5000:5000
+    volumes:
+      - model:/src/model
+
+  training:
+    image: ml_training
+    volumes:
+      - imgs/:/src/imgs
+      - data:/src/data
+      - model:/src/model
+
+volumes:
+  imgs:
+  data:
+  model:

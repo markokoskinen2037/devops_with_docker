@@ -1,0 +1,35 @@
+version: '3.5' 
+
+services: 
+
+    postgres:
+      image: postgres
+      restart: always
+      environment:
+        POSTGRES_USER: user
+        POSTGRES_PASSWORD: password
+        POSTGRES_DB: database
+
+    backend: 
+      image: backend-example-docker
+      ports:
+        - 8000:8000
+      environment:
+        - REDIS=redis
+        - DB_USERNAME=user
+        - DB_PASSWORD=password
+        - DB_NAME=database
+        - DB_HOST=postgres
+
+    redis:
+      image: redis
+      ports:
+        - 6379:6379
+
+
+
+    #For testing purposes:
+    frontend:
+      image: frontend-example-docker
+      ports:
+        - 5000:5000

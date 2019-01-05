@@ -1,0 +1,10 @@
+Image      Initial image size          Optimized image size
+frontend        494MB                       391MB
+backend         416MB                       316MB
+
+$ docker images
+REPOSITORY                                           TAG                 IMAGE ID            CREATED             SIZE
+frontend                                             latest              d39e32573fe4        9 minutes ago       494MB
+backend                                              latest              4338eb0911dc        10 minutes ago      416MB
+backend-optimized                                    latest              19448b0b15cc        13 minutes ago      316MB
+frontend-optimized                                   latest              7c21ce8488ba        14 minutes ago      391MB

@@ -1,0 +1,3 @@
+# Running this command does not break YLEs terms of service, because it downloads a podcast.
+
+docker run -it -v $(pwd):/downloads yle-dl-optimized https://areena.yle.fi/1-50026988

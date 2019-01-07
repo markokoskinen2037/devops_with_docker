@@ -1,0 +1,18 @@
+Results:
+                      ubuntu:16.04          node:alpine
+    backend           317MB                 130MB
+    frontend          414MB                 227MB
+
+
+
+Initial docker images using Ubuntu:16.04
+    $ docker images
+    REPOSITORY                                           TAG                 IMAGE ID            CREATED             SIZE
+    frontend-optimized                                   latest              d10c4292e0dd        21 minutes ago      414MB
+    backend-optimized                                    latest              a8ad778c28ef        21 minutes ago      317MB
+
+Optimized docker images using node:alpine
+    $ docker images
+    REPOSITORY                                           TAG                 IMAGE ID            CREATED             SIZE
+    frontend-optimized                                   latest              e4522c796552        3 minutes ago       227MB
+    backend-optimized                                    latest              81ec5be0eab4        6 minutes ago       130MB

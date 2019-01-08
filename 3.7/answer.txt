@@ -1,0 +1,5 @@
+I chose option c) "Building images inside of a container".
+
+Project repository: https://github.com/markokoskinen2037/dockerizer
+
+Installation instructions are in the README.

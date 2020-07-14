@@ -19,5 +19,4 @@ jobs:
     - name: Testing stuff
       run: |
         echo Full SHA1 = ${{github.sha}}
-        echo Short SHA12 = ${{env.SHA12}}
-        echo xxx = ${{env.GITHUB_SHA}}
+        echo Short SHA12 = ${{env.SHA12}}-customIndentifier

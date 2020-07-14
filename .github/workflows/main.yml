@@ -12,5 +12,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Testing stuff
-      run: echo Full SHA1 = {{github.sha}}
+      run: echo Full SHA1 = ${{github.sha}}
 

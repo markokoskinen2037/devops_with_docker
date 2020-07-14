@@ -1,5 +1,9 @@
 name: CI
 
+env:
+  SHA12: ${GITHUB_SHA::12}
+
+
 on:
   push:
     branches: [ master ]
@@ -11,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      env:
-        SHA12: ${GITHUB_SHA::12}
-    - name: Testing stuff
-      run: echo Full SHA1 = ${{env.SHA12}}
-      
 
+    - name: Testing stuff
+      run: |
+        echo Full SHA1 = ${{github.sha}}
+        echo Short SHA12 = ${{env.SHA12}}
+        echo xxx = ${{env.GITHUB_SHA}}

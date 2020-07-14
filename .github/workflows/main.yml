@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      env:
+        SHA12: ${GITHUB_SHA::12}
     - name: Testing stuff
-      run: echo Full SHA1 = ${{github.sha}}
+      run: echo Full SHA1 = ${{env.SHA12}}
+      
 

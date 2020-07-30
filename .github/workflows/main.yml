@@ -20,5 +20,5 @@ jobs:
       run: |
         echo Full SHA1 = ${{github.sha}}
         echo Short SHA12 = ${{env.SHA12}}-customIndentifier
-        echo ${{GITHUB_REPOSITORY}}
+        echo ${{github.GITHUB_REPOSITORY}}
         echo ${{NODE_ENV}}
